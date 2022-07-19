@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resume/Cv Design By Sandesh Bhurtyal</title>
+  <link rel="stylesheet" href="CSS/cv-style.css">
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="index.html"><img src="images/logo.PNG" alt="logo" width="50" height="50"></a> </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn">Home</a></li>
+                <li><a href="cv.html" class="menu-btn">CV</a></li>
+                <li><a href="blog.html" class="menu-btn">Blog</a></li>
+                <li><a href="research.html" class="menu-btn">Research</a></li>
+                <li><a href="contact.html" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+  <div class="resume">
+    <div class="resume_left">
+      <div class="resume_profile">
+        <img src="images/CV.jpg">
+      </div>
+      <div class="resume_content">
+        <div class="resume_item resume_info">
+          <div class="title">
+            <p class="bold">Sandesh Bhurtyal</p>
+            <p class="regular">Web-Developer</p>
+          </div>
+          <ul>
+            <li>
+              <div class="data">
+               Address <br> Parsyang-5, Pokhara <br/> Nepal
+              </div>
+            </li>
+            <li>
+              <div class="data">
+                Contact no <br>+977 9814138224
+              </div>
+            </li>
+            <li>
+              <div class="data">
+                Email<br>sandeshbhurtyal926@gmail.com
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume_item resume_skills">
+          <div class="title">
+            <p class="bold">SkillS</p>
+          </div>
+          <ul>
+            <li>
+              <div class="skill_name">
+                HTML
+              </div>
+              <div class="skill_progress">
+                <span style="width: 40%;"></span>
+              </div>
+              <div class="skill_per">40%</div>
+            </li>
+            <li>
+              <div class="skill_name">
+                CSS
+              </div>
+              <div class="skill_progress">
+                <span style="width: 30%;"></span>
+              </div>
+              <div class="skill_per">30%</div>
+            </li>
+            <li>
+              <div class="skill_name">
+                JS
+              </div>
+              <div class="skill_progress">
+                <span style="width: 20%;"></span>
+              </div>
+              <div class="skill_per">20%</div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume_item resume_social">
+          <div class="title">
+            <p class="bold">Social</p>
+          </div>
+          <ul>
+            <li>
+              <div class="data">
+                <p class="semi-bold">Facebook</p>
+                <p>Sandesh bhurtyal@facebook</p>
+              </div>
+            </li>
+            <li>
+              <div class="data">
+                <p class="semi-bold">Twitter</p>
+                <p>Sandesh@twitter</p>
+              </div>
+            </li>
+            <li>
+              <div class="data">
+                <p class="semi-bold">Youtube</p>
+                <p>AJ@youtube</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="resume_right">
+      <div class="resume_item resume_about">
+        <div class="title">
+          <p class="bold">About Me</p>
+        </div>
+        <p>I am a youthful and active student. I am currently 19 years old and have always been interested in the field of information technology. Every day, I enjoy taking on new challenges in terms of web design and development. And I am always focusing on and updating my education in the areas of web design and development.</p>
+      </div>
+      <div class="resume_item resume_work">
+        <div class="title">
+          <p class="bold">Work Experience</p>
+        </div>
+        <ul>
+          <li>
+            <div class="date">2076-2077 BS</div>
+            <div class="info">
+              <p class="semi-bold">Web Designer.</p>
+              <p>1yr Web Designer for a CG company</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="resume_item resume_education">
+        <div class="title">
+          <p class="bold">Education</p>
+        </div>
+        <ul>
+          <li>
+            <div class="date">2075 BS</div>
+            <div class="info">
+                <p class="semi-bold">Shanti Niketan School.</p>
+                <p>Degree level=SEE<br>
+                  Grade=A<br>
+                  Status=Completed<br>
+                </p>
+            </div>
+        </li>
+        
+        <li>
+            <div class="date">2075-2077 BS </div>
+            <div class="info">
+                <p class="semi-bold">Sagarmatha Niketan School.</p>
+                <p>Degree level=NEB<br>
+                  Grade=B+<br>
+                  Status=Completed<br></p>
+            </div>
+        </li>
+        </ul>
+      </div>
+      <div class="resume_item resume_hobby">
+        <div class="title">
+          <p class="bold">Hobby</p>
+        </div>
+        <ul>
+          <li><i class="fas fa-music"></i></li>
+          <li><i class="fas fa-gamepad"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <span>Created By Sandesh Bhurtyal| <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+</footer>
+<button id="BacktoTop" onclick="startFromTop()">Top</button>
+<script> var topButton = document.getElementById("BacktoTop");
+
+ window.onscroll = function(){scrollFunction()};
+ 
+ function scrollFunction(){
+     if(document.body.scrollTop > 150 || document.documentElement.scrollTop > 150){
+             topButton.style.display = "block";
+         }
+             else{
+                 topButton.style.display = "none";
+             }
+     }
+ 
+ function startFromTop()
+ {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+ }</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
