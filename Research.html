@@ -214,29 +214,30 @@
           </div>
         </div>
       </section>
-      <footer>
+    <footer>
         <span>Created By Sandesh Bhurtyal| <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
     <button id="BacktoTop" onclick="startFromTop()">Top</button>
-    <script> var topButton = document.getElementById("BacktoTop");
- 
-     window.onscroll = function(){scrollFunction()};
-     
-     function scrollFunction(){
-         if(document.body.scrollTop > 150 || document.documentElement.scrollTop > 150){
-                 topButton.style.display = "block";
-             }
-                 else{
-                     topButton.style.display = "none";
-                 }
-         }
-     
-     function startFromTop()
-     {
-         document.body.scrollTop = 0;
-         document.documentElement.scrollTop = 0;
-     }</script>
+   <script> var topButton = document.getElementById("BacktoTop");
 
-    <script src="script.js"></script>
+    window.onscroll = function(){scrollFunction()};
+    
+    function scrollFunction(){
+        if(document.body.scrollTop > 150 || document.documentElement.scrollTop > 150){
+                topButton.style.display = "block";
+            }
+                else{
+                    topButton.style.display = "none";
+                }
+        }
+    
+    function startFromTop()
+    {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }</script>
+    
+    <script> src="script.js"
+    </script>
 </body>
 </html>
